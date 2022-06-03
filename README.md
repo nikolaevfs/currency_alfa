@@ -42,4 +42,16 @@ HttpStatus.NOT_FOUND если введен неверный код валюты
 HttpStatus.NOT_FOUND если все в порядяке
 
 ## Запуск
+### jar
+Из корневой папки проекта:
+
+java -jar currency-0.0.1-SNAPSHOT.jar
+
+### Docker
+Из корневой папки проекта:
+
+docker build -t dockerappimage .
+
+docker run -p 8080:8080 dockerappimage
+
 
